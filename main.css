@@ -1,0 +1,133 @@
+h1 {
+  color: white;
+  font-family: Monospace;
+  text-align: right;
+  font-size: 40px;
+  font-weight: 1000;
+}
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: Monospace;
+  font-size: 13px;
+  line-height: 24px;
+  overscroll-behavior: none;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-image: url("5271011.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.boxed {
+  color: #000;
+  border: 1px solid darkgrey;
+  text-align: left;
+  height: 40px;
+  width: 300px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-family: Monospace;
+  background-color: white;
+}
+.boxed2 {
+  color: #000;
+  border: 1px solid darkgrey;
+  text-align: left;
+  height: 400px;
+  width: 300px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: Monospace;
+  background-color: white;
+}
+
+a {
+  color: #ff0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+canvas {
+  display: block;
+  float: right;
+  position: absolute;
+  top: 87px;
+  right: 40px;
+
+  border: 3px solid darkgrey;
+}
+
+#info {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  z-index: 1; /* TODO Solve this in HTML */
+}
+
+a,
+button,
+input,
+select {
+  pointer-events: auto;
+}
+
+.dg.ac {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 2 !important; /* TODO Solve this in HTML */
+}
+
+#overlay {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#overlay > div {
+  text-align: center;
+}
+
+#overlay > div > button {
+  height: 20px;
+  background: transparent;
+  color: #ffffff;
+  outline: 1px solid #ffffff;
+  border: 0px;
+  cursor: pointer;
+}
+
+#overlay > div > p {
+  color: #777777;
+  font-size: 12px;
+}

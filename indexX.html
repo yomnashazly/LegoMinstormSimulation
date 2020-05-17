@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <style>
+      body {
+        margin: 0;
+
+      }
+      canvas {
+        display: block;
+      }
+    </style> -->
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+</html>
+<body style="text-align: center;">
+  <h1>
+    Lego Mindstorm Simulation
+  </h1>
+  <div id="Ultrasonic" class="boxed">
+    Ultrasonic Sensor
+  </div>
+  <div id="Infrared" class="boxed">
+    Infrared Sensor
+  </div>
+  <div id="Colour" class="boxed">
+    Colour Sensor
+  </div>
+  <div id="Touch" class="boxed">
+    Touch Sensor
+  </div>
+  <div id="Gyro" class="boxed">
+    Gyro Sensor
+  </div>
+  <div id="function" class="boxed2">
+    function{ }
+  </div>
+
+    <script>
+      // This is necessary to work. DON'T REMOVE
+      let WEBGL_RENDERER = true;
+      let CANVAS_RENDERER = true;
+    </script>
+
+    <script type="text/javascript" src="js/three.js"></script>
+    <script src="js/GLTFLoader.js"></script>
+    <script type="text/javascript" src="js/physi.js"></script>
+    
+   
+    <script type="text/javascript" src="polygons.js"></script>
+    <script type="text/javascript" src="variables.js"></script>
+    <script type="text/javascript" src="displayRobot.js"></script>
+    <script type="text/javascript" src="actions.js"></script>
+    <script type="text/javascript" src="sensors.js"></script>
+    <script type="text/javascript" src="simulation.js"></script>
+    <canvas id="canvas">
+      <script type="text/javascript" src="plane.js"></script>
+    </canvas>
+
+  </body>
+</html>
